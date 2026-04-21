@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Logo */
+#logo {
+    text-align: center;
+    color: blue;
+    margin: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background: rgb(220, 220, 220);
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Float box */
+.box {
+    float: right;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* List */
+ol {
+    margin-top: 10px;
+}
+
+/* Special offer */
+.special {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    background: hsl(200, 50%, 40%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+}
